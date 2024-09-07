@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gafas de Lujo - MONTARI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #000;
+            color: #f0c040;
+            padding: 10px;
+            text-align: center;
+            letter-spacing: 5px;
+            font-weight: 600;
+        }
+
+        .container-header .logo {
+            font-size: 24px;
+        }
+
+        .banner {
+            position: relative;
+            background-image: url('https://via.placeholder.com/1600x700?text=Gafas+de+Lujo');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 4px;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .banner .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 15px;
+        }
+
+        .categoria-info {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .categoria-info h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #000;
+        }
+
+        .categoria-info p {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .estilos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .estilo {
+            text-align: center;
+            max-width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .estilo:hover {
+            transform: translateY(-10px);
+        }
+
+        .estilo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .estilo h3 {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .estilo p {
+            font-size: 14px;
+            color: #666;
+            padding: 0 15px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .footer p {
+            font-size: 14px;
+            margin: 5px 0;
+            color: #aaa;
+        }
+
+        /* Responsividad */
+        @media (max-width: 768px) {
+            header .logo {
+                font-size: 18px;
+            }
+
+            .banner {
+                height: 250px;
+                font-size: 22px;
+            }
+
+            .estilos {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .estilo {
+                max-width: 90%;
+            }
+
+            .categoria-info h2 {
+                font-size: 24px;
+            }
+
+            .categoria-info p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container-header">
+            <div class="logo">MONTARI</div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="overlay"></div>
+        <h1>Gafas de Lujo</h1>
+    </section>
+
+    <div class="container">
+
+        <section class="categoria-info">
+            <h2>Gafas Cartier</h2>
+            <p>
+                Explora nuestra colección de gafas Cartier, donde la moda y la funcionalidad se encuentran. Cada par de gafas es una obra maestra de diseño y elegancia.
+            </p>
+        </section>
+
+        <section class="estilos">
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Cartier+Santos" alt="Cartier Santos">
+                <h3>Cartier Santos</h3>
+                <p>Diseño atemporal con un toque moderno. Ideal para quienes buscan un estilo sofisticado y elegante.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Cartier+Panthère" alt="Cartier Panthère">
+                <h3>Cartier Panthère</h3>
+                <p>Inspiradas en el emblemático diseño de pantera, estas gafas ofrecen un estilo audaz y lujoso.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Cartier+Baignoire" alt="Cartier Baignoire">
+                <h3>Cartier Baignoire</h3>
+                <p>Un diseño distintivo con formas elegantes y una estética refinada. Perfectas para cualquier ocasión.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Cartier+Ballon+Bleu" alt="Cartier Ballon Bleu">
+                <h3>Cartier Ballon Bleu</h3>
+                <p>Con un diseño elegante y distintivo, estas gafas combinan sofisticación con comodidad.</p>
+            </div>
+        </section>
+
+        <section class="categoria-info">
+            <h2>Gafas Versace</h2>
+            <p>
+                Descubre nuestra exclusiva colección de gafas Versace. Cada diseño representa un equilibrio perfecto entre opulencia y estilo.
+            </p>
+        </section>
+
+        <section class="estilos">
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Versace+Medusa" alt="Versace Medusa">
+                <h3>Versace Medusa</h3>
+                <p>Un diseño icónico con el emblema de Medusa. Perfecto para quienes desean destacar con elegancia.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Versace+Barocco" alt="Versace Barocco">
+                <h3>Versace Barocco</h3>
+                <p>Inspiradas en los patrones barrocos de Versace, estas gafas aportan un toque clásico y sofisticado.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Versace+Virtus" alt="Versace Virtus">
+                <h3>Versace Virtus</h3>
+                <p>Con detalles lujosos y modernos, estas gafas ofrecen una declaración audaz de estilo y prestigio.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Versace+Greca" alt="Versace Greca">
+                <h3>Versace Greca</h3>
+                <p>Estas gafas presentan un diseño elegante con el patrón Greca distintivo de Versace.</p>
+            </div>
+        </section>
+        
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 MONTARI. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

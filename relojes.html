@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Relojes de Lujo - MONTARI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #000;
+            color: #f0c040;
+            padding: 10px;
+            text-align: center;
+            letter-spacing: 5px;
+            font-weight: 600;
+        }
+
+        .container-header .logo {
+            font-size: 24px;
+        }
+
+        .banner {
+            position: relative;
+            background-image: url('https://via.placeholder.com/1600x700?text=Relojes+de+Lujo');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 4px;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .banner .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 15px;
+        }
+
+        .categoria-info {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .categoria-info h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #000;
+        }
+
+        .categoria-info p {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .estilos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .estilo {
+            text-align: center;
+            max-width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .estilo:hover {
+            transform: translateY(-10px);
+        }
+
+        .estilo img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .estilo h3 {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .estilo p {
+            font-size: 14px;
+            color: #666;
+            padding: 0 15px;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .footer p {
+            font-size: 14px;
+            margin: 5px 0;
+            color: #aaa;
+        }
+
+        /* Responsividad */
+        @media (max-width: 768px) {
+            header .logo {
+                font-size: 18px;
+            }
+
+            .banner {
+                height: 250px;
+                font-size: 22px;
+            }
+
+            .estilos {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .estilo {
+                max-width: 90%;
+            }
+
+            .categoria-info h2 {
+                font-size: 24px;
+            }
+
+            .categoria-info p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container-header">
+            <div class="logo">MONTARI</div>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="overlay"></div>
+        <h1>Relojes de Lujo</h1>
+    </section>
+
+    <div class="container">
+
+        <section class="categoria-info">
+            <h2>Relojes Cartier</h2>
+            <p>
+                Descubre nuestra exclusiva colección de relojes Cartier, donde el lujo y la precisión se encuentran en cada diseño. Elegancia atemporal y artesanía excepcional te esperan.
+            </p>
+        </section>
+
+        <section class="estilos">
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Cartier+Santos" alt="Cartier Santos">
+                <h3>Cartier Santos</h3>
+                <p>Un clásico renovado, conocido por su elegancia y su diseño robusto.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Cartier+Ballon+Bleu" alt="Cartier Ballon Bleu">
+                <h3>Cartier Ballon Bleu</h3>
+                <p>Elegancia redonda y sofisticada, ideal para ocasiones especiales.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Cartier+Calibre" alt="Cartier Calibre">
+                <h3>Cartier Calibre</h3>
+                <p>Un diseño moderno con un toque de distinción, perfecto para el hombre contemporáneo.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Cartier+Drive" alt="Cartier Drive">
+                <h3>Cartier Drive</h3>
+                <p>Un reloj que combina confort y estilo, con una estética refinada y sofisticada.</p>
+            </div>
+        </section>
+
+        <section class="categoria-info">
+            <h2>Relojes Rolex</h2>
+            <p>
+                Explora la colección de relojes Rolex, donde la precisión y el prestigio se combinan para ofrecerte relojes que son sinónimo de excelencia y estilo.
+            </p>
+        </section>
+
+        <section class="estilos">
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Rolex+Submariner" alt="Rolex Submariner">
+                <h3>Rolex Submariner</h3>
+                <p>Conocido por su resistencia al agua y su robustez, el Submariner es ideal para los aventureros.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Rolex+Daytona" alt="Rolex Daytona">
+                <h3>Rolex Daytona</h3>
+                <p>Un cronógrafo elegante y preciso, famoso por su funcionalidad y estilo deportivo.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Rolex+Datejust" alt="Rolex Datejust">
+                <h3>Rolex Datejust</h3>
+                <p>Un reloj clásico con una fecha destacada, ideal para cualquier ocasión.</p>
+            </div>
+            <div class="estilo">
+                <img src="https://via.placeholder.com/300x300?text=Rolex+Oyster" alt="Rolex Oyster">
+                <h3>Rolex Oyster</h3>
+                <p>Famoso por su diseño resistente y su estilo elegante, el Oyster es un ícono en el mundo de los relojes.</p>
+            </div>
+        </section>
+        
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 MONTARI. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
